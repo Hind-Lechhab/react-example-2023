@@ -1,10 +1,11 @@
 import "./App.css";
-import OutputExampleParent from "./examples/2-data-flow/OutputExampleParent";
+import ExampleWithState from "./examples/3-state/ExampleWithState";
+import ExampleWithStateAndLocalStorage from "./examples/3-state/ExampleWithStateAndLocalStorage";
 
 function App() {
   return (
     <>
-      <OutputExampleParent />
+      <ExampleWithStateAndLocalStorage />
     </>
   );
 }

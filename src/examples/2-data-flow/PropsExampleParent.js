@@ -1,4 +1,4 @@
-import PropsExampleChild from "./PropsExampleChild";
+import PropsExampleChildAAAA from "./PropsExampleChild";
 
 function PropsExampleParent() {
   let user = {
@@ -10,8 +10,8 @@ function PropsExampleParent() {
     <div>
       <hr />
       <h1>Props example</h1>
-      <PropsExampleChild userVar={user} firstName="Mohamed" lastName="Amine" />
-      <PropsExampleChild userVar={user} firstName="Zakaria" lastName="Zakaria" />
+      <PropsExampleChildAAAA userVar={user} firstName="Mohamed" lastName="Amine" />
+      <PropsExampleChildAAAA userVar={user} firstName="Zakaria" lastName="Zakaria" />
     </div>
   );
 }
