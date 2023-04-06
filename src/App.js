@@ -1,11 +1,11 @@
 import "./App.css";
-import ExampleWithState from "./examples/3-state/ExampleWithState";
-import ExampleWithStateAndLocalStorage from "./examples/3-state/ExampleWithStateAndLocalStorage";
+import ControlledForm from "./examples/5-form/ControlledForm";
+import UncontrolledFormAndUseRef from "./examples/5-form/UncontrolledFormAndUseRef";
 
 function App() {
   return (
     <>
-      <ExampleWithStateAndLocalStorage />
+      <ControlledForm />
     </>
   );
 }
